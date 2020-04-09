@@ -1,0 +1,28 @@
+{
+    "name": "startpl/t2cms-composer",
+    "type": "composer-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "The composer plugin for t2cms extension installer",
+    "keywords": [
+      "t2cms", "extension"
+    ],
+    "authors": [
+        {
+            "name": "Koperdog",
+            "email": "koperdog.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "t2cms\\composer\\": "" }
+    },
+    "extra": {
+        "class": "t2cms\\composer\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0 || ^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.6.* || 2.0.*@dev"
+    }
+}
